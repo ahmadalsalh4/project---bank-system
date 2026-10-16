@@ -5,24 +5,29 @@ A console banking application built with object-oriented C++. The system is orga
 ## Features
 
 **Client management**
+
 - List, add, update, delete, and find clients
 - Account balance inquiries and total-balances report
 
 **Transactions**
+
 - Deposit and withdraw with validation
 - Transfer between accounts with a persistent transfer log
 - Transaction history per user session
 
 **User management & permissions**
+
 - Bank staff accounts with username/password login
 - Role-based permissions using a bitmask (`PerShowClientList`, `PerAddClient`, `PerTransactions`, `PerManageUsers`, `PerCurrencyExchance`, …) — each screen checks permissions before rendering
 - Full audit of login/register activity in a register log
 
 **Currency exchange**
+
 - Currency catalogue with live rate storage
 - Currency converter/calculator and rate-update screen
 
 **Cross-cutting utilities**
+
 - `clsDate` — full date arithmetic
 - `clsString` — string manipulation helpers
 - `clsValid` / `clsUtil` — input validation, PIN and record-number generation
@@ -53,3 +58,9 @@ Screens (clsScreen base)          Domain (file-backed)       Utilities
 3. Sign in with an account from `Users.txt`.
 
 The smaller ATM front-end for this system is in [project---Bank-sub-system-Atm](https://github.com/ahmadalsalh4/project---Bank-sub-system-Atm).
+
+<img src="s1.png" width="100%"/> 
+<img src="s2.png" width="100%"/>
+<img src="s3.png" width="100%"/> 
+<img src="s4.png" width="100%"/>
+<img src="s5.png" width="100%"/>
